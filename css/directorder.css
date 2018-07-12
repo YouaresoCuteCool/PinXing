@@ -1,0 +1,290 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+html{
+	font-size:100%;
+
+}
+a{
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style-type: none;
+}
+input{
+	border:none;
+	outline: none;
+}
+.shadow{
+	width:100%;
+	height:95%;
+	 transition-duration: 1s;
+}
+.bigimg{
+	width:100%;
+	position: relative;
+	margin-top: 40px;
+}
+.topimg img{
+	width:100%;
+}
+.forphone {
+		display: none;
+	}
+.forpad {
+		display: none;
+	}
+@media screen and (max-width: 1100px){
+	.forpad {
+		display: block;
+	}
+	.forphone {
+		display: none;
+	}
+	.forpc {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 928px){
+	.bigimg{
+		margin-top: 10px;
+	}
+	.forphone{
+		width:100%;
+		display: block;
+	}
+	.forpad{
+		display: none;
+	}
+	.forpc{
+		display: none;
+	}
+}
+.bigimg .contactdetail{
+    position:absolute;
+    bottom:0;
+    background-color:rgba(0,0,0,0.4); 
+    width:100%;
+    text-align: center;   
+}
+.bigimg a{
+	padding:1% 3%;
+	display: inline-block;	
+	color: white;
+	font-size: 1.2rem;
+}
+.bigimg .aactive{
+	background: #6968A1;
+}
+@media screen and (max-width: 928px){
+    .bigimg .contactdetail{
+    	position:static;
+    	background-color:white;
+        margin:50px auto;
+    }
+    .bigimg .contactdetail a{
+    	margin-left: 2px;
+    	padding:0.8% 1%;
+    	font-size: 0.9rem;
+    	border-radius: 15px;
+    	color: #333; 
+    	font-weight: normal;
+    }
+    .bigimg .contactdetail .aactive{
+    	color: white;
+	    background: #6968A1;	    
+    }
+    .bigimg .contactdetail a:hover{
+    	color: white;
+    	background-color: #6968A1;
+    }
+}
+section{
+	margin:40px auto;
+	max-width:1210px;
+}
+section .hot{
+	margin:30px 0px;
+}
+section .hot div{
+	margin-bottom: 20px;
+}
+section .hot b{
+	font-size: 1.2rem;
+}
+section .hot a{
+	font-size: 1rem;
+	display: inline-block;
+	font-weight: 200px;
+	opacity: 0.8;
+	background-color: #eeeeee;
+	padding:5px 15px;
+	margin-right: 10px;
+	border-radius: 8px; 
+}
+section .aim{
+	margin-bottom: 50px;
+}
+section .aim b{
+	font-size: 1.2rem;
+}
+section .aim input{
+   background-color:  #eeeeee;
+   width:280px;
+   padding:8px 15px;
+   font-size: 1rem;  
+}
+section .aim span{
+    background-image: url('../images/directorder/search.png');
+    background-repeat: no-repeat;
+    width:40px;
+    height:40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.direct{
+	cursor: pointer;
+    font-size: 20px;
+    line-height: 46px;
+    color: #FFF;
+    height: 48px;
+    background: #C2A261;
+    padding: 0px 58px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.lineb{
+    line-height: 24px;
+    padding: 27px 0px 23px;
+    border-top: 1px solid #CACACA;
+    position: relative;
+    font-size: 1rem;
+    font-weight: bold
+}
+.lineb:before{
+    background: url('../images/directorder/dz_icon1.jpg') no-repeat center top;
+    height: 9px;
+    width: 18px;
+    position: absolute;
+    left: 52px;
+    top: -1px;
+    content: "";
+}
+.auto{
+	text-align: center;
+	width:100%;
+}
+form{
+	width:100%;
+	margin:auto;
+	border:5px solid #e9e9e9;
+	background-color:#fafafb;
+	padding:80px 80px;
+}
+form p,h3{
+	color:#C2A261;
+}
+form .plan{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: space-between;
+}
+form .plan div{
+	height: 40px;
+	border:1px solid #DEDEDE;;
+	background-color: white;
+	line-height: 38px;
+	font-size: 1rem;
+	opacity: 0.8;
+}
+form .plan span{
+	width:30px;
+	text-align: center;
+	display: inline-block;
+}
+form .plan input{
+	width:80%;
+}
+form textarea{
+   width:100%;
+   margin:30px auto;
+   height:180px;
+   border: 1px solid #DEDEDE;;
+}
+form .infor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: space-between;
+}
+form .infor div{
+	height: 40px;
+	border:1px solid #DEDEDE;
+	background-color: white;
+	line-height: 36px;
+	font-size: 1rem;
+	opacity: 0.8;
+}
+form .infor span{
+	width:25px;
+	text-align: center;
+	display: inline-block;
+}
+form .infor input{
+	width:80%;
+}
+.linktime{
+	margin: 20px 0;
+}
+.linktime input{
+	margin-right: 10px;
+}
+.code{
+	display: inline-block;
+	height: 40px;
+	border:1px solid #DEDEDE;
+}
+#form1{
+	display: none;
+}
+#form2{
+	display: none;
+}
+@media screen and (max-width: 1240px){
+	section{
+		max-width:980px;
+	}
+}
+@media screen and (max-width: 1030px){
+	section{
+		max-width:880px;
+	}
+}
+@media screen and (max-width: 958px){
+	section{
+		width:90%;
+	}
+}
+@media screen and (max-width: 440px){
+	form .plan input{
+	    width:70%; 
+    }
+}
+
+
+
+
+
+

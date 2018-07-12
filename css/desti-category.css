@@ -1,0 +1,184 @@
+.sec-head .seclg,.sec-head .secmd,.sec-head .secsm{
+	width: 100%;
+	display: none;
+	margin-top: 80px;
+}
+.sec-head .seclg img,.sec-head .secmd img,.sec-head .secsm img{
+	width: 100%;
+}
+.sec-head .seclg{
+	display: block;
+}
+.sec-main{
+	max-width: 1230px;
+	width: 95%;
+	margin:10px auto;
+}
+.sec-main h2{
+	font-size: 24px;
+	line-height: 82px;
+	padding-top: 22px;
+	font-weight: bold;
+}
+.sec-main .mmd_selBox{
+	background: #ECECEC url(http://www.luxtrip.cn/css/../images/m2md_icon1.jpg) no-repeat right center;
+	height: 34px;
+	width: 160px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 14px;
+}
+.sec-main .mmd_int{
+	text-align: center;
+	height: 34px;
+	width: 100%;
+	border-width: 0px;
+	border-style: none;
+	background: none;
+	color: #666;
+	cursor: pointer;
+}
+.sec-main .mmd_option{
+	width: 100%;
+	padding: 10px 0px;
+	position: absolute;
+	z-index: 3;
+	left: 0px;
+	top: 34px;
+	background: rgba(182,182,182,0.6);
+	display: none;
+}
+.sec-main .mmd_option li{
+	padding: 0px 15px;
+	line-height: 30px;
+	height: 30px;
+	color: #666;
+	cursor: pointer;
+}
+.sec-main .mmd_option li:hover{
+	background-color: #ECECEC;
+}
+ul li {
+	list-style: none;
+}
+.pic-items{
+	max-width: 1230px;
+	width: 95%;
+	margin: 0 auto;
+	clear: both;
+}
+.pic-items li{
+	width: 32%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	margin-right: 2%;
+}
+.pic-items li:nth-child(3),.pic-items li:nth-child(6){
+	margin-right:0;
+}
+.pic-items li:hover{
+	box-shadow: 6px 6px 0px 3px #E6E6FA;
+}
+.pic-items li img{
+	width: 100%;
+}
+.pic-items .img-txt{
+	height: 117px;
+	border-right: 1px solid #E9E9E9;
+	border-bottom: 1px solid #E9E9E9;
+	border-left: 1px solid #E9E9E9;
+	position: relative;
+	padding: 13px 20px 0px;
+	line-height: 20px;
+}
+.pic-items .img-text{
+	height: 2px;
+	border-right: 1px solid #E9E9E9;
+	border-bottom: 1px solid #E9E9E9;
+	border-left: 1px solid #E9E9E9;
+}
+.pic-items .img-txt strong {
+	font-size: 16px;
+	line-height: 38px;
+	color: #222;
+	height: 38px;
+	display: block;
+}
+.pic-items .img-txt p {
+	height: 40px;
+	overflow: hidden;
+}
+.pic-items .img-price {
+	font-size: 26px;
+	color: #FFF;
+	line-height: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 1;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	padding: 0px 15px;
+}
+.page-num{
+	display: none;
+	clear: both;
+	max-width: 1230px;
+	width: 95%;
+	margin: 0 auto;
+}
+.load-more {
+	clear: both;
+	line-height: 38px;
+	color: #909090;
+	background-color: #F2F2F2;
+	text-align: center;
+	display: block;
+	margin: 30px auto 60px;
+	height: 38px;
+	width: 375px;
+	cursor: pointer;
+}
+.load-more img{
+	width: 10px;
+}
+@media screen and (max-width:952px){
+	.sec-head .seclg{
+		display: none;
+	}
+	.sec-head .secmd{
+		display: block;
+		margin-top: 50px;
+	}
+	.pic-items li{
+		width: 49%;
+		float: left;
+		margin-right: 0;
+	}
+	.pic-items li:nth-child(odd){
+		margin-right:2%;
+	}
+}
+@media screen and (max-width:768px){
+	.sec-head .seclg,.sec-head .secmd{
+		display: none;
+	}
+	.sec-head .secsm{
+		display: block;
+		margin-top: 50px;
+	}
+	.pic-items li{
+		width: 100%;
+		float: left;
+		margin-right: 0;
+	}
+	.load-more{
+		width: 95%;
+	}
+}

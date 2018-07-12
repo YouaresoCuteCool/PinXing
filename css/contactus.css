@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	cursor: pointer; 
+}
+html{
+	font-size:100%;
+
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+.bigimg{
+	width:100%;
+	position: relative;
+	margin-top: 110px;
+}
+.topimg img{
+	width:100%;
+}
+.forphone {
+		display: none;
+	}
+.forpad {
+		display: none;
+	}
+@media screen and (max-width: 1100px){
+	.forpad {
+		display: block;
+	}
+	.forphone {
+		display: none;
+	}
+	.forpc {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 928px){
+	.bigimg{
+		margin-top: 10px;
+	}
+	.forphone{
+		width:100%;
+		display: block;
+	}
+	.forpad{
+		display: none;
+	}
+	.forpc{
+		display: none;
+	}	
+}
+.bigimg .contactdetail{
+    position:absolute;
+    bottom:0;
+    background-color:rgba(0,0,0,0.4); 
+    width:100%;
+    text-align: center;  
+}
+.bigimg .contactdetail a{
+	padding:1.5% 3%;
+	display: inline-block;	
+	font-weight: bold;
+	color: white;
+	font-size: 1.08rem;
+}
+.bigimg .aactive{
+	background: #6968A1;
+}
+@media screen and (max-width: 928px){
+    .bigimg .contactdetail{
+    	position:static;
+    	background-color:white;
+        margin:50px auto;
+    }
+    .bigimg .contactdetail a{
+    	margin-left: 2px;
+    	padding:0.8% 1%;
+    	font-size: 0.9rem;
+    	border-radius: 15px;
+    	color: #333; 
+    	font-weight: normal;
+    }
+    .bigimg .contactdetail .aactive{
+    	color: white;
+	    background: #6968A1;	    
+    }
+    .bigimg .contactdetail a:hover{
+    	color: white;
+    	background-color: #6968A1;
+    }
+}
+section{
+	width:80%;
+	margin:auto;
+	margin-top: 80px;
+	max-width: 1230px;
+}
+section .branchc{
+    text-align: center;
+    margin-bottom:60px;
+}
+section .branchc a{
+	display: inline-block;
+	width:135px;
+	height:40px;
+	background-color: #e1e1e1;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+}
+section .branchc .cactive{
+	background-color: #bd9854;
+}
+section .branchc .cactive p{
+	width:8px;
+	height:8px;
+	margin:auto;
+	border-top:8px solid #bd9854;
+	border-bottom:8px solid  transparent;
+	border-left:8px solid transparent;
+	border-right:8px solid transparent;
+}
+section .content{
+	width:85%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+}
+section .content .left{
+	width:48%;
+}
+section .content .left img{
+	width:100%;
+	border:1px solid #e1e1e1;
+}
+section .content .right{
+	width:48%;
+}
+section .content .right div{
+	margin-left:20px;
+}
+section .content .right p{
+	font-size: 1.2rem;
+	opacity: 0.7;
+	font-weight: bold;
+}
+section .content .right .wechat{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+section .shenzhen{
+	display: none;
+}
+section .shanghai{
+	display: none;
+}
+@media screen and (max-width: 1100px){
+	section{
+		width: 85%;
+	}
+    section  .content{
+    	width:90%;
+    }
+}
+@media screen and (max-width: 952px){
+	section{
+		width:96%;
+	}
+	section  .content{
+    	width:100%;
+    	flex-wrap: wrap;
+    }
+    section .content .left{
+        width:100%;
+    }
+    section .content .right{
+	    width:100%;
+    }
+}
+
+
+

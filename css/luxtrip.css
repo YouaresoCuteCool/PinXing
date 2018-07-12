@@ -1,0 +1,296 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+html{
+	font-size:100%;
+}
+a:hover{
+	text-decoration:none;
+}
+/*第一部分*/
+#page{
+	width:100%;
+	margin-top:100px;
+}
+#page .one-box{
+	width:100%;
+}
+#page .one-box .dsPc{
+	
+}
+#page .one-box .dsPc img{
+	width:100%;
+	height:100%;
+}
+#page .one-box .dsPad{
+	display:none;
+}
+#page .one-box .dsPad img{
+	width:100%;
+	height:100%;
+}
+#page .one-box .dsPhone{
+	display:none;
+}
+#page .one-box .dsPhone img{
+	width:100%;
+	height:100%;
+}
+/*第一部分标题*/
+.section-one .header-list{
+	height:60px;
+	background: rgba(0,0,0,0.4);
+	margin-top:-65px;
+	text-align:center;
+	position:relative;
+	z-index:2;
+}
+.section-one .header-list a{
+	display:inline-block;
+	height:60px;
+	font-family: '宋体';
+	line-height:60px;
+	font-size:16px;
+	color:#ffffff;
+	padding:0 14px;
+}
+.section-one  .header-list a:hover{
+	background-color:#6968A1;
+}
+.section-one .header-list .festival{
+	background-color:#6968A1;
+}
+/*第二部分*/
+.section-two{
+	width:100%;
+	margin:auto;
+	margin-top:50px;
+}
+.section-two .box-one{
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+	border-bottom:1px solid silver;
+	display:flex;
+}
+.section-two .box-one .left-con{
+	width:275px;
+}
+.section-two .box-one .left-con img{
+	width:100%;
+	height:100%;
+}
+.section-two .box-one .right-con{
+	width:885px;
+	margin-left:50px;
+}
+.section-two .box-one .right-title{
+	color:#222222;
+	line-height: 44px;
+	font-size:24px;
+}
+.section-two .box-one .add-tip{
+	color:#888888;
+	font-size:14px;
+	margin:10px 0;
+}
+.section-two .box-one .add-specific{
+	margin:10px 0;
+}
+.section-two .box-one .add-specific span{
+	color:#888888;
+	font-size:12px;
+	margin-right:20px;
+}
+.section-two .box-one .read-more{
+	display:block;
+	width:135px;
+	line-height:30px;
+	border-radius:1.2rem;
+	text-align: center;
+	color:#807fb9;
+	font:bold 14px/30px Arial;
+	background-color:#EBEAF5;
+	margin:15px 0 0 0;
+	transition:all 0.3s ease;
+}
+.section-two .box-one .read-more:hover{
+	color:white;
+	background-color:#807fb9;
+}
+.section-two .box-one .price{
+	margin-top:5px;
+	text-align:right;
+	font-size:24px;
+	color:#4c4b8e;
+}
+.section-two .box-one .price .money{
+	font-size:38px;
+}
+
+.section-two .box-one .price .up{
+	color:#666666;
+	font-size:14px;
+}
+.section-two .load-one{
+	cursor:pointer;
+}
+/*第三部分*/
+.add-three{
+	margin-top:10px;
+	display:none;
+}
+.already-load{
+	width:100%;
+}
+
+.already-load .load-all{
+	width:376px;
+	height:38px;
+	line-height: 38px;
+	text-align:center;
+	margin:50px auto;
+	color:#909090;
+	background-color:#F2F2F2;
+}
+/*小于1200px*/
+@media screen and (max-width: 1200px){
+	#page .one-box .dsPc{
+		display:none;
+	}
+
+	#page .one-box .dsPad{
+		display:block;
+	}
+	/*第一部分标题*/
+	.section-one .header-list{
+		
+	}
+	.section-one .header-list a{
+		font-size:14px;
+		padding:0 10px;
+	}
+	/*第二部分*/
+	.section-two{
+		
+	}
+	.section-two .box-one{
+		width:940px;
+		height:257px;
+	}
+	.section-two .box-one .left-con{
+		width:275px;
+		height:208px;
+	}
+
+	.section-two .box-one .left-con img{
+		
+	}
+	.section-two .box-one .right-con{
+		width:625px;
+		height:220px;
+	}
+
+}
+/*小于987px*/
+@media screen and (max-width: 987px){
+	.section-two{
+	}
+	.section-two .box-one{
+		width:800px;
+		padding:0 10px 0 0;
+	}
+	.section-two .box-one .left-con{
+	}
+	.section-two .box-one .left-con img{
+	}
+	.section-two .box-one .right-con{
+		margin-left:20px;
+	}
+	.section-two .box-one .add-tip{
+		margin:20px 0 0 0;
+	}
+	.section-two .box-one .add-specific{
+		margin:30px 0;
+	}
+	.section-two .box-one .price{
+		margin-top:-35px;
+	}
+
+}
+/*小于952px*/
+
+@media screen and (max-width: 952px){
+	#page{
+		margin-top:60px;
+	}
+}
+/*小于768px*/
+@media screen and (max-width: 768px){
+	#page .one-box .dsPad{
+		display:none;
+	}
+	#page .one-box .dsPhone{
+		display:block;
+	}
+	.section-one .header-list{
+		height:70px;
+		background:white;
+		margin-top:10px;
+
+	}
+	.section-one .header-list a{
+		height:35px;
+		color:black;
+		line-height:35px;
+		padding:0 10px;	
+		border-radius:1.3rem;
+	}
+	.section-one .header-list a:hover{
+		color:white;
+	}
+	.section-one .header-list .festival{
+		color:white;
+	}
+	/*第二部分*/
+	.section-two{
+	}
+	.section-two .box-one{
+		width:100%;
+		height:100%;
+		flex-wrap:wrap;
+	}
+	.section-two .box-one .left-con{
+		width:100%;
+		height:auto;
+	}
+	.section-two .box-one .add-tip{
+		margin:0;
+	}
+	.section-two .box-one .add-specific{
+		margin:0;
+	}
+	.section-two .box-one .price{
+		margin-top:-45px;
+	}
+
+	.section-two .box-one .right-con{
+		width:100%;
+		margin-top:20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

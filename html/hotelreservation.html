@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>品行之旅-定制旅游-私人订制旅游</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/index-top.css">
+	<link rel="stylesheet" href="../css/hotelreservation.css">
+	<script src="../js/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="nav-header">
+		<div class="logo"><a href="index.html"><img src="../images/logo.png" alt=""></a></div>
+		<div class="navbar">
+			<img src="../images/navbar.png" alt="" class="lg">
+			<img src="../images/cha.png" alt="" class="sm">
+		</div>
+		<div class="white-logo">
+			<img src="../images/logo_phone.png" alt="">
+		</div>
+		<div class="fr_login">
+			<img src="../images/299E3082-525D-4DA5-80BB-63922F4A0314.png" alt="">
+		</div>
+		<ul>
+			<li class="destination">
+				<a href="destination.html">目的地</a>
+				<div class="mnavMenu">
+					<dl class="mnav_mdl">
+						<dt>  <img src="../images/1142540653.png">非洲 &amp; 中东</dt>
+						<dd>
+							<a class="mnav_da" href="desti-category.html">摩洛哥</a>
+							<a class="mnav_da" href="desti-category.html">肯尼亚</a>
+							<a class="mnav_da" href="desti-category.html">南非</a>
+							<a class="mnav_da" href="desti-category.html">纳米比亚</a>
+							<a class="mnav_da" href="desti-category.html">阿联酋</a>
+							<a class="mnav_da" href="desti-category.html">约旦</a>
+							<a class="mnav_da" href="desti-category.html">以色列</a>
+							<a class="mnav_da" href="desti-category.html">毛里求斯</a>
+							<a class="mnav_da" href="desti-category.html">塞舌尔</a>
+						</dd>
+					</dl>
+					<dl class="mnav_mdl">
+						<dt>  <img src="../images/1143111803.png">美洲</dt>
+						<dd>
+							<a class="mnav_da" href="desti-category.html">巴哈马</a>
+							<a class="mnav_da" href="desti-category.html">美国</a>
+							<a class="mnav_da" href="desti-category.html">加拿大</a>
+							<a class="mnav_da" href="desti-category.html">墨西哥</a>
+							<a class="mnav_da" href="desti-category.html">古巴</a>
+							<a class="mnav_da" href="desti-category.html">巴西</a>
+							<a class="mnav_da" href="desti-category.html">阿根廷</a>
+							<a class="mnav_da" href="desti-category.html">夏威夷</a>
+							<a class="mnav_da" href="desti-category.html">秘鲁</a>
+							<a class="mnav_da" href="desti-category.html">北美洲</a>
+							<a class="mnav_da" href="desti-category.html">南美洲</a>
+						</dd>
+					</dl>
+					<dl class="mnav_mdl">
+						<dt>  <img src="../images/1248536551.png">大洋洲</dt>
+						<dd>
+							<a class="mnav_da" href="desti-category.html">澳大利亚</a>
+							<a class="mnav_da" href="desti-category.html">新西兰</a>
+							<a class="mnav_da" href="desti-category.html">斐济</a>
+							<a class="mnav_da" href="desti-category.html">大溪地</a>
+						</dd>
+					</dl>
+					<dl class="mnav_mdl">
+						<dt>  <img src="../images/1143480665.png">亚洲 &amp; 东南亚</dt>
+						<dd>
+							<a class="mnav_da" href="desti-category.html">国内</a>
+							<a class="mnav_da" href="desti-category.html">日本</a>
+							<a class="mnav_da" href="desti-category.html">不丹</a>
+							<a class="mnav_da" href="desti-category.html">斯里兰卡</a>
+							<a class="mnav_da" href="desti-category.html">印度尼西亚</a>
+							<a class="mnav_da" href="desti-category.html">韩国</a>
+							<a class="mnav_da" href="desti-category.html">缅甸</a>
+							<a class="mnav_da" href="desti-category.html">柬埔寨</a>
+							<a class="mnav_da" href="desti-category.html">巴厘岛</a>
+							<a class="mnav_da" href="desti-category.html">马来西亚</a>
+							<a class="mnav_da" href="desti-category.html">尼泊尔</a>
+							<a class="mnav_da" href="desti-category.html">泰国</a>
+							<a class="mnav_da" href="desti-category.html">新加坡</a>
+							<a class="mnav_da" href="desti-category.html">越南</a>
+							<a class="mnav_da" href="desti-category.html">台湾</a>
+						</dd>
+					</dl>
+					<dl class="mnav_mdl">
+						<dt>  <img src="../images/1249334304.png">欧洲</dt>
+						<dd>
+							<a class="mnav_da" href="desti-category.html">法国</a>
+							<a class="mnav_da" href="desti-category.html">英国</a>
+							<a class="mnav_da" href="desti-category.html">意大利</a>
+							<a class="mnav_da" href="desti-category.html">捷克</a>
+							<a class="mnav_da" href="desti-category.html">克罗地亚</a>
+							<a class="mnav_da" href="desti-category.html">保加利亚</a>
+							<a class="mnav_da" href="desti-category.html">德国</a>
+							<a class="mnav_da" href="desti-category.html">瑞士</a>
+							<a class="mnav_da" href="desti-category.html">葡萄牙</a>
+							<a class="mnav_da" href="desti-category.html">俄罗斯</a>
+							<a class="mnav_da" href="desti-category.html">希腊</a>
+							<a class="mnav_da" href="desti-category.html">西班牙</a>
+						</dd>
+					</dl>
+					<dl class="mnav_mdl">
+						<dt>  <img src="../images/1250104557.png">南北极洲</dt>
+						<dd>
+							<a class="mnav_da" href="desti-category.html">南极</a>
+							<a class="mnav_da" href="desti-category.html">北极</a>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li><a href="ThemeTourism.html">主题旅游</a></li>
+			<li><a href="ownorder.html">专属定制</a></li>
+			<li><a href="vip.html">贵宾礼遇</a></li>
+			<li><a href="pinxing-home.html">品行家</a></li>
+			<li><a href="huizhanjiudian.html">会展酒店</a></li>
+		</ul>
+		<div class="submits">
+			<div class="login"><a href="login.html"><img src="../images/login.png" alt="">登录</a></div>
+			<div class="register"><a href="register.html"><img src="../images/register.png" alt="">注册</a></div>
+		</div>
+		<div class="login_modal">
+			<a href="login.html"><img src="../images/login-white.png" alt=""> 登录</a>
+		    <a href="register.html"><img src="../images/register-white.png" alt=""> 注册</a>
+		</div>
+	</div>
+	<div class="main-bar">
+		<div id="bar">
+		<ul class="navbars">
+			<li><a href="destination.html">目的地</a></li>
+			<li><a href="ThemeTourism.html">主题旅游</a></li>
+			<li><a href="ownorder.html">专属定制</a></li>
+			<li><a href="vip.html">贵宾礼遇</a></li>
+			<li><a href="pinxing-home.html">品行家</a></li>
+			<li><a href="huizhanjiudian.html">会展酒店</a></li>
+		</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="bannerImg">
+			<div class="banner">
+				<p>酒店预订 | 2017中国国际瓦楞展</p>
+			</div>
+        </div>
+        <div class="content">
+        	<div class="contact">
+        		<img src="../images/yd1.jpg">
+        		<div class="contactStyle">
+        			&nbsp;&nbsp;&nbsp;&nbsp;联系人：王梦瑶 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电 话：010-841772835&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传 真：010-84177177
+        		</div>
+        	</div>
+        	<div class="yuding">
+        		<div class="info">
+        			<div class="left">
+        				<img src="../images/yd2.png" alt="">
+        			</div>
+        			<div class="right">
+        				<div class="title">
+        					<span>上海浦东嘉里大酒店</span>
+        					<span></span>
+        				</div>
+        				<div class="brief">
+        					上海浦东嘉里大酒店地处浦东核心腹地——浦东嘉里城，毗邻地铁七号线，新国际博览中心和世纪公园。从浦东机场乘坐磁悬浮列车到达酒店只需15分钟，而且酒店提供酒店与磁悬浮车站之间的往返班车。酒店豪华优雅、舒适温馨的居住空间，客房设施包括有线和无线宽带上网，熨衣板等；房内的迷你吧所有食品，诸如小食、巧克力、手工自酿啤酒、汽水和果汁全都在你抵店当天提供。酒店还拥有上海最大的酒店健身俱乐部-嘉里健身6,000平方米面积横跨3层，包括24小时开放的健身中心、室内游泳池、训练教室、水疗中心、室外网球场、篮球场和儿童探险乐园，都是你和小朋友休闲、娱乐的好去处。
+        				</div>
+        				<div class="address">
+        					<img src="../images/jddw.jpg" alt="">
+        					&nbsp;&nbsp;地址：浦东新区花木路1388号 <br>电 话：021-61698888
+        				</div>
+        				<a href=""><input type="button" value="READ MORE" style="outline:none"></a>
+        			</div>
+        		</div>
+        	</div>
+            <table width="100%" height="140px" cellspacing="0" bgcolor="#F5F5F5" class="showTable">
+				<tr align="center" class="first-tr">
+					<td>房型</td>
+					<td>门市价</td>
+					<td>预订价</td>
+					<td>早餐</td>
+					<td>床型</td>
+					<td>上网</td>
+					<td>班车</td>
+					<td>在线预订</td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>单人房</td>
+					<td>2122</td>
+					<td style="color:#CD2626">1780</td>
+					<td>含</td>
+					<td>大床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>双人房</td>
+					<td>2355</td>
+					<td style="color:#CD2626">1980</td>
+					<td>含</td>
+					<td>双床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>单人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2122</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1780</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>大床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>双人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2355</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1980</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>双床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+    	    <div class="yuding">
+        		<div class="info">
+        			<div class="left">
+        				<img src="../images/yd3.png" alt="">
+        			</div>
+        			<div class="right">
+        				<div class="title">
+        					<span>上海卓美亚喜马拉雅酒店</span>
+        					<span></span>
+        				</div>
+        				<div class="brief">
+        					上海浦东嘉里大酒店地处浦东核心腹地——浦东嘉里城，毗邻地铁七号线，新国际博览中心和世纪公园。从浦东机场乘坐磁悬浮列车到达酒店只需15分钟，而且酒店提供酒店与磁悬浮车站之间的往返班车。酒店豪华优雅、舒适温馨的居住空间，客房设施包括有线和无线宽带上网，熨衣板等；房内的迷你吧所有食品，诸如小食、巧克力、手工自酿啤酒、汽水和果汁全都在你抵店当天提供。酒店还拥有上海最大的酒店健身俱乐部-嘉里健身6,000平方米面积横跨3层，包括24小时开放的健身中心、室内游泳池、训练教室、水疗中心、室外网球场、篮球场和儿童探险乐园，都是你和小朋友休闲、娱乐的好去处。
+        				</div>
+        				<div class="address">
+        					<img src="../images/jddw.jpg" alt="">
+        					&nbsp;&nbsp;地址：浦东新区花木路1388号 <br>电 话：021-61698888
+        				</div>
+        				<a href=""><input type="button" value="READ MORE" style="outline:none"></a>
+        			</div>
+        		</div>
+        	</div>
+            <table width="100%" height="140px" cellspacing="0" bgcolor="#F5F5F5" class="showTable">
+				<tr align="center" class="first-tr">
+					<td>房型</td>
+					<td>门市价</td>
+					<td>预订价</td>
+					<td>早餐</td>
+					<td>床型</td>
+					<td>上网</td>
+					<td>班车</td>
+					<td>在线预订</td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>单人房</td>
+					<td>2122</td>
+					<td style="color:#CD2626">1780</td>
+					<td>含</td>
+					<td>大床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>双人房</td>
+					<td>2355</td>
+					<td style="color:#CD2626">1980</td>
+					<td>含</td>
+					<td>双床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>单人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2122</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1780</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>大床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>双人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2355</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1980</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>双床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<div class="yuding">
+        		<div class="info">
+        			<div class="left">
+        				<img src="../images/yd4.png" alt="">
+        			</div>
+        			<div class="right">
+        				<div class="title">
+        					<span>上海东景江逸林希尔顿酒店</span>
+        					<span></span>
+        				</div>
+        				<div class="brief">
+        					上海浦东嘉里大酒店地处浦东核心腹地——浦东嘉里城，毗邻地铁七号线，新国际博览中心和世纪公园。从浦东机场乘坐磁悬浮列车到达酒店只需15分钟，而且酒店提供酒店与磁悬浮车站之间的往返班车。酒店豪华优雅、舒适温馨的居住空间，客房设施包括有线和无线宽带上网，熨衣板等；房内的迷你吧所有食品，诸如小食、巧克力、手工自酿啤酒、汽水和果汁全都在你抵店当天提供。酒店还拥有上海最大的酒店健身俱乐部-嘉里健身6,000平方米面积横跨3层，包括24小时开放的健身中心、室内游泳池、训练教室、水疗中心、室外网球场、篮球场和儿童探险乐园，都是你和小朋友休闲、娱乐的好去处。
+        				</div>
+        				<div class="address">
+        					<img src="../images/jddw.jpg" alt="">
+        					&nbsp;&nbsp;地址：浦东新区花木路1388号 <br>电 话：021-61698888
+        				</div>
+        				<a href=""><input type="button" value="READ MORE" style="outline:none"></a>
+        			</div>
+        		</div>
+        	</div>
+            <table width="100%" height="140px" cellspacing="0" bgcolor="#F5F5F5" class="showTable">
+				<tr align="center" class="first-tr">
+					<td>房型</td>
+					<td>门市价</td>
+					<td>预订价</td>
+					<td>早餐</td>
+					<td>床型</td>
+					<td>上网</td>
+					<td>班车</td>
+					<td>在线预订</td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>单人房</td>
+					<td>2122</td>
+					<td style="color:#CD2626">1780</td>
+					<td>含</td>
+					<td>大床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>双人房</td>
+					<td>2355</td>
+					<td style="color:#CD2626">1980</td>
+					<td>含</td>
+					<td>双床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>单人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2122</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1780</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>大床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>双人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2355</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1980</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>双床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<div class="yuding">
+        		<div class="info">
+        			<div class="left">
+        				<img src="../images/yd5.png" alt="">
+        			</div>
+        			<div class="right">
+        				<div class="title">
+        					<span>上海明悦大酒店</span>
+        					<span></span>
+        				</div>
+        				<div class="brief">
+        					上海浦东嘉里大酒店地处浦东核心腹地——浦东嘉里城，毗邻地铁七号线，新国际博览中心和世纪公园。从浦东机场乘坐磁悬浮列车到达酒店只需15分钟，而且酒店提供酒店与磁悬浮车站之间的往返班车。酒店豪华优雅、舒适温馨的居住空间，客房设施包括有线和无线宽带上网，熨衣板等；房内的迷你吧所有食品，诸如小食、巧克力、手工自酿啤酒、汽水和果汁全都在你抵店当天提供。酒店还拥有上海最大的酒店健身俱乐部-嘉里健身6,000平方米面积横跨3层，包括24小时开放的健身中心、室内游泳池、训练教室、水疗中心、室外网球场、篮球场和儿童探险乐园，都是你和小朋友休闲、娱乐的好去处。
+        				</div>
+        				<div class="address">
+        					<img src="../images/jddw.jpg" alt="">
+        					&nbsp;&nbsp;地址：浦东新区花木路1388号 <br>电 话：021-61698888
+        				</div>
+        				<a href=""><input type="button" value="READ MORE" style="outline:none"></a>
+        			</div>
+        		</div>
+        	</div>
+            <table width="100%" height="140px" cellspacing="0" bgcolor="#F5F5F5" class="showTable">
+				<tr align="center" class="first-tr">
+					<td>房型</td>
+					<td>门市价</td>
+					<td>预订价</td>
+					<td>早餐</td>
+					<td>床型</td>
+					<td>上网</td>
+					<td>班车</td>
+					<td>在线预订</td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>单人房</td>
+					<td>2122</td>
+					<td style="color:#CD2626">1780</td>
+					<td>含</td>
+					<td>大床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>双人房</td>
+					<td>2355</td>
+					<td style="color:#CD2626">1980</td>
+					<td>含</td>
+					<td>双床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>单人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2122</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1780</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>大床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>双人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2355</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1980</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>双床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<div class="yuding">
+        		<div class="info">
+        			<div class="left">
+        				<img src="../images/yd6.png" alt="">
+        			</div>
+        			<div class="right">
+        				<div class="title">
+        					<span>上海兴荣温德姆至尊豪庭酒店</span>
+        					<span></span>
+        				</div>
+        				<div class="brief">
+        					上海浦东嘉里大酒店地处浦东核心腹地——浦东嘉里城，毗邻地铁七号线，新国际博览中心和世纪公园。从浦东机场乘坐磁悬浮列车到达酒店只需15分钟，而且酒店提供酒店与磁悬浮车站之间的往返班车。酒店豪华优雅、舒适温馨的居住空间，客房设施包括有线和无线宽带上网，熨衣板等；房内的迷你吧所有食品，诸如小食、巧克力、手工自酿啤酒、汽水和果汁全都在你抵店当天提供。酒店还拥有上海最大的酒店健身俱乐部-嘉里健身6,000平方米面积横跨3层，包括24小时开放的健身中心、室内游泳池、训练教室、水疗中心、室外网球场、篮球场和儿童探险乐园，都是你和小朋友休闲、娱乐的好去处。
+        				</div>
+        				<div class="address">
+        					<img src="../images/jddw.jpg" alt="">
+        					&nbsp;&nbsp;地址：浦东新区花木路1388号 <br>电 话：021-61698888
+        				</div>
+        				<a href=""><input type="button" value="READ MORE" style="outline:none"></a>
+        			</div>
+        		</div>
+        	</div>
+            <table width="100%" height="140px" cellspacing="0" bgcolor="#F5F5F5" class="showTable">
+				<tr align="center" class="first-tr">
+					<td>房型</td>
+					<td>门市价</td>
+					<td>预订价</td>
+					<td>早餐</td>
+					<td>床型</td>
+					<td>上网</td>
+					<td>班车</td>
+					<td>在线预订</td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>单人房</td>
+					<td>2122</td>
+					<td style="color:#CD2626">1780</td>
+					<td>含</td>
+					<td>大床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>双人房</td>
+					<td>2355</td>
+					<td style="color:#CD2626">1980</td>
+					<td>含</td>
+					<td>双床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>单人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2122</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1780</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>大床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>双人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2355</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1980</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>双床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<div class="yuding">
+        		<div class="info">
+        			<div class="left">
+        				<img src="../images/yd7.png" alt="">
+        			</div>
+        			<div class="right">
+        				<div class="title">
+        					<span>上海景江汤臣洲际大酒店</span>
+        					<span></span>
+        				</div>
+        				<div class="brief">
+        					上海浦东嘉里大酒店地处浦东核心腹地——浦东嘉里城，毗邻地铁七号线，新国际博览中心和世纪公园。从浦东机场乘坐磁悬浮列车到达酒店只需15分钟，而且酒店提供酒店与磁悬浮车站之间的往返班车。酒店豪华优雅、舒适温馨的居住空间，客房设施包括有线和无线宽带上网，熨衣板等；房内的迷你吧所有食品，诸如小食、巧克力、手工自酿啤酒、汽水和果汁全都在你抵店当天提供。酒店还拥有上海最大的酒店健身俱乐部-嘉里健身6,000平方米面积横跨3层，包括24小时开放的健身中心、室内游泳池、训练教室、水疗中心、室外网球场、篮球场和儿童探险乐园，都是你和小朋友休闲、娱乐的好去处。
+        				</div>
+        				<div class="address">
+        					<img src="../images/jddw.jpg" alt="">
+        					&nbsp;&nbsp;地址：浦东新区花木路1388号 <br>电 话：021-61698888
+        				</div>
+        				<a href=""><input type="button" value="READ MORE" style="outline:none"></a>
+        			</div>
+        		</div>
+        	</div>
+            <table width="100%" height="140px" cellspacing="0" bgcolor="#F5F5F5" class="showTable">
+				<tr align="center" class="first-tr">
+					<td>房型</td>
+					<td>门市价</td>
+					<td>预订价</td>
+					<td>早餐</td>
+					<td>床型</td>
+					<td>上网</td>
+					<td>班车</td>
+					<td>在线预订</td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>单人房</td>
+					<td>2122</td>
+					<td style="color:#CD2626">1780</td>
+					<td>含</td>
+					<td>大床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+				<tr align="center" class="tr">
+					<td>双人房</td>
+					<td>2355</td>
+					<td style="color:#CD2626">1980</td>
+					<td>含</td>
+					<td>双床</td>
+					<td>免费</td>
+					<td></td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>单人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2122</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1780</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>大床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+			<table class="hiddenTable">
+				<tr align="center">
+					<td>房型:</td>
+					<td>双人房</td>
+				</tr>
+				<tr align="center">
+					<td>门市价:</td>
+					<td>2355</td>
+				</tr>
+				<tr align="center">
+					<td>预订价:</td>
+					<td style="color:#CD2626">1980</td>
+				</tr>
+				<tr align="center">
+					<td>早餐:</td>
+					<td>含</td>
+				</tr>
+				<tr align="center">
+					<td>床型:</td>
+					<td>双床</td>
+				</tr>
+				<tr align="center">
+					<td>上网:</td>
+					<td>免费</td>
+				</tr>
+				<tr align="center">
+					<td>班车:</td>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>在线预订:</td>
+					<td><a href="yudingdetail.html">在线预订</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="btn">查看更多</div>
+	</div>
+	<div class="footer">
+		<div class="foot-box">
+			<div class="foot-info">
+				<div class="footL">	
+					<div class="footLL">
+						<span class="line">|</span><span class="foot-tit">关于我们</span>
+						<ul>
+							<li><a href="introduce.html">品行简介</a></li>
+							<li><a href="ceowords.html">总裁致辞</a></li>
+							<li><a href="develop.html">发展历程</a></li>
+							<li><a href="culture.html">企业文化</a></li>
+							<li><a href="honor.html">荣誉资质</a></li>
+						</ul>
+					</div>
+					<div class="footLL">
+						<span class="line">|</span><span class="foot-tit">联系我们</span>
+						<ul>
+							<li><a href="contactus.html">各地分公司</a></li>
+							<li><a href="JoinUs.html">人才招聘</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="footM">
+					<li><img src="../images/0317019044.jpg" alt=""><p>微信订阅号</p> </li>
+					<li><img src="../images/0315353224.jpg" alt=""><p>微信服务号</p></li>
+				</ul>
+				<div class="footTel">
+					服务热线：<span>400-010-8188</span>
+				</div>
+			</div>
+			<div class="webInfo">
+				<span>京ICP备09092571号-1</span>
+			</div>
+		</div>
+	</div>
+	<script src="../js/index.js"></script>
+	<script src="../js/hotelreservation.js"></script>
+</body>
+</html>

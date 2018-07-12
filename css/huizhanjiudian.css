@@ -1,0 +1,225 @@
+.container{
+	width:100%;
+}
+.container .bannerImg{
+    width:100%;
+    position:relative;
+}
+.container .bannerImg img{
+	display:block;
+}
+.container .bannerImg{
+	width:100%;
+	height:530px;
+	background:url("../images/hzjd1.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.container .bannerImg .banner{
+	width:100%;
+	height:60px;
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	bottom:0;
+	left:0;
+	display:flex;
+	justify-content:center;
+}
+.container .bannerImg .banner a{
+	display:block;
+	width:150px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	color:white;
+	font-size:1.2rem;
+}
+@media screen and (min-width:1044px){
+.container .content{
+	width:95%;
+	height:240px;
+	margin:50px auto;
+	max-width:1044px;
+	border-bottom:1px dashed black;
+}
+.container .content>div{
+	float:left;
+	margin-right:30px;
+}
+.container .content .right>p{
+	font-size:2rem;
+	margin-bottom:20px;
+}
+.container .content .right>p a:hover{
+	color:#5a5994;
+}
+.container .content .right div :first-child{
+	font-size:1.1rem;
+}
+.container .content .right div p{
+	margin-bottom:30px;
+}
+.container .content .left img{
+	display:block;
+}
+.container .btn{
+	width:375px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	margin:30px auto;
+	font-size:1.1rem;
+	font-weight:bolder;
+	color:gray;
+	background:#F2F2F2;
+	cursor:pointer;
+}
+@keyframes colorChange{
+	from{
+		color:rgb(178,34,34);
+	}
+	to{
+		color:rgb(255,48,48);
+	}
+}
+.container .btn:hover{
+	animation:colorChange 1s;
+	animation-fill-mode:forwards;
+}
+}
+@media screen and (max-width:1044px) and (min-width:952px){
+.container .content{
+	width:95%;
+	height:460px;
+	margin:50px auto;
+	border-bottom:1px dashed black;
+}
+.container .content>div{
+	float:left;
+	margin-right:30px;
+}
+.container .content .right>p{
+	font-size:2rem;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+.container .content .right>p a:hover{
+	color:#5a5994;
+}
+.container .content .right div :first-child{
+	font-size:1.1rem;
+}
+.container .content .right div p{
+	margin-bottom:30px;
+}
+.container .content .left img{
+	display:block;
+}
+.container .btn{
+	width:375px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	margin:30px auto;
+	font-size:1.1rem;
+	font-weight:bolder;
+	color:gray;
+	background:#F2F2F2;
+	cursor:pointer;
+}
+@keyframes colorChange{
+	from{
+		color:rgb(178,34,34);
+	}
+	to{
+		color:rgb(255,48,48);
+	}
+}
+.container .btn:hover{
+	animation:colorChange 1s;
+	animation-fill-mode:forwards;
+}
+}
+@media screen and (max-width:952px){
+.container .content{
+	width:95%;
+	margin:50px auto;
+	border-bottom:1px dashed black;
+}
+.container .content>div{
+	margin-right:30px;
+}
+.container .content .left{
+	width:80%;
+}
+.container .content .left img{
+	width:100%;
+}
+.container .content .right>p{
+	font-size:2rem;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+.container .content .right>p a:hover{
+	color:#5a5994;
+}
+.container .content .right div :first-child{
+	font-size:1.1rem;
+}
+.container .content .right div p{
+	margin-bottom:30px;
+}
+.container .content .left img{
+	display:block;
+}
+.container .btn{
+	width:375px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	margin:30px auto;
+	font-size:1.1rem;
+	font-weight:bolder;
+	color:gray;
+	background:#F2F2F2;
+	cursor:pointer;
+}
+@keyframes colorChange{
+	from{
+		color:rgb(178,34,34);
+	}
+	to{
+		color:rgb(255,48,48);
+	}
+}
+.container .btn:hover{
+	animation:colorChange 1s;
+	animation-fill-mode:forwards;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

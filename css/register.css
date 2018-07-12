@@ -1,0 +1,188 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-tap-highlight-color:transparent;
+	box-sizing:border-box;
+}
+html{
+	font-size:100%;
+}
+input{
+	outline:none;
+	border:none;
+	-webkit-appearance:none;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+#page{
+	width:100%;
+	
+}
+#page .page-box{
+	width:100%;
+	height:100%;
+	margin-top:8px;
+	background-image: url(../images/fmBg.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	padding:73px 0 70px;
+	
+}
+#page .page-box .box-title{
+
+}
+#page .page-box .box-title a{
+	display:block;
+	width:298px;
+	margin:auto;
+}
+#page .page-box .box-title img{
+	width:100%;
+	height:100%;
+	
+}
+#page .register-box{
+	width:430px;
+	margin:50px auto;
+}
+#page .register-box .box-bg{
+	background-color:white;
+	border:1px solid white;
+
+}
+#page .box-bg .box-caption{
+	text-align:center;
+	font-size:24px;
+	line-height: 110px;
+}
+#page form li {
+	width:330px;
+	height:45px;
+	margin:0px auto;
+	border:1px solid #c0c0c0;
+}    
+#page form li span{
+	display: inline-block;
+	margin:13px 5px;
+	color:#c0c0c0;
+}
+#page form ul .one input{
+	float:right;
+	display:inline-block;
+	height:42px;
+	width:300px;
+	font-size:14px;
+}
+#page form ul .two{
+	border:none;
+}
+#page form ul .two input{
+	border:1px solid #c0c0c0;
+	display:inline-block;
+	height:42px;
+	width:172px;
+	padding:0 0 0 25px;
+}
+#page form ul .two input[type=button]{
+	display:inline-block;
+	height:42px;
+	width:145px;
+	margin:0 0 0 8px;
+	padding:0;
+	background-color:#5d5c97;
+	color:#fff;
+}
+#page form ul .three input{
+	float:right;
+	display:inline-block;
+	height:42px;
+	width:300px;
+	font-size:14px;
+}
+#page form ul .five {
+	border:none;
+}
+#page form ul .five a{
+	display:inline-block;
+	width:330px;
+	line-height:38px;
+	text-align:center;
+	background-color:#4A477B;
+	color:#fff;
+	border-radius: 0.3em;
+}
+#page .register-box .enter{
+	margin:10px auto;
+	width:330px;
+	line-height:38px;
+	text-align: center;
+	color: #a7a7a7;
+}
+#page .register-box .enter a{
+	text-decoration:underline;
+	color:#c39e46;
+}
+
+@media screen and (max-width: 768px){
+	#page .register-box{
+		width:330px;
+	}
+	#page form li {
+		width:60%;
+		border:1px solid #c0c0c0;
+	}    
+	#page form ul .one input{
+		width:83%;
+	}
+	#page form ul .two input{
+		width:55%;
+	}
+	#page form ul .two input[type=button]{
+		width:40%;
+		margin:0;
+	}
+	#page form ul .three input{
+		width:83%;
+	}
+	#page form ul .five a{
+		width:100%;
+	}
+	#page .register-box .enter{
+		margin:auto;
+		width:70%;
+	}
+}
+@media screen and (max-width: 385px){
+	#page .register-box{
+		width:90%;
+		min-width:246px;
+		height:auto;
+	}
+	#page form ul .one input{
+		width:80%;
+	}
+	#page form ul .two {
+	}
+	#page form ul .two input[type=text]{
+		width:55%;
+		padding:0;
+	}
+	#page form ul .two input[type=button]{
+		width:40%;
+		font-size:12px;
+	}
+	#page form ul .three input{
+		width:70%;
+	}
+}
+
+
+

@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+html{
+	font-size:100%;
+
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style-type: none;
+}
+section{
+	margin:auto;
+	margin-top: 90px;
+	background-image: url("../images/vip/m2yd_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+section .cards{
+	width:80%;
+    min-height: 720px;
+    margin:auto;
+    position:relative;
+}
+section .cards .cardsimg{  
+	width:100%;
+	position: absolute;
+	text-align: center;
+    top:170px;
+    bottom:170px;
+}
+section .cards .cardsimg li{
+	height:100%; 
+	display: table;	
+}
+section .cards .cardsimg li div{
+    display:table-cell;    
+    vertical-align:middle;
+}
+section .cards .cardsimg .zhaoshang{
+	border-right: 1px solid pink;
+}
+@media screen and (max-width: 950px){
+   section .cards{
+       width:100%;
+    }
+}
+@media screen and (max-width:768px){
+    .card{
+       width: 600px;
+       min-height: 500px;
+    }
+    section .cards .cardsimg li{
+
+       height:50%;
+    }
+    section .cards .cardsimg .zhaoshang{
+      border-right:none;	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

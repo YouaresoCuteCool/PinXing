@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+html{
+	font-size:100%;
+
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color: #333;
+	text-decoration: none;
+}
+.bigimg{
+	width:100%;
+	position: relative;
+	margin-top: 110px;
+}
+.topimg img{
+	width:100%;
+}
+.forphone {
+		display: none;
+	}
+.forpad {
+		display: none;
+	}
+@media screen and (max-width: 1100px){
+	.forpad {
+		display: block;
+	}
+	.forphone {
+		display: none;
+	}
+	.forpc {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 928px){
+	.bigimg{
+		margin-top: 10px;
+	}
+	.forphone{
+		width:100%;
+		display: block;
+	}
+	.forpad{
+		display: none;
+	}
+	.forpc{
+		display: none;
+	}	
+}
+.bigimg .contactdetail{
+    position:absolute;
+    bottom:0;
+    background-color:rgba(0,0,0,0.4); 
+    width:100%;
+    text-align: center;  
+}
+.bigimg .contactdetail a{
+	padding:1.5% 3%;
+	display: inline-block;	
+	font-weight: bold;
+	color: white;
+	font-size: 1.08rem;
+}
+.bigimg .aactive{
+	background: #6968A1;
+}
+@media screen and (max-width: 928px){
+    .bigimg .contactdetail{
+    	position:static;
+    	background-color:white;
+        margin:50px auto;
+    }
+    .bigimg .contactdetail a{
+    	margin-left: 2px;
+    	padding:0.8% 1%;
+    	font-size: 0.9rem;
+    	border-radius: 15px;
+    	color: #333; 
+    	font-weight: normal;
+    }
+    .bigimg .contactdetail .aactive{
+    	color: white;
+	    background: #6968A1;	    
+    }
+    .bigimg .contactdetail a:hover{
+    	color: white;
+    	background-color: #6968A1;
+    }
+}
+section{
+	width:100%;
+	margin:auto;
+	margin-top: 80px;
+	max-width: 1250px;
+}
+section table{
+	width:100%;
+	margin:auto;
+	font-size: 1rem;
+}
+section table tr{
+	height:50px;
+}
+section table tr th{
+	overflow:hidden;
+}
+section table .line1{
+    background-color: #888888;
+    color:white;
+    font-size: 1.2rem;
+}
+section table .line1>th{
+    width:280px;
+}
+section table .linecolor{
+	background-color: #f0f0f0;
+}
+section table .linelast{
+	border-bottom: 1px solid #f0f0f0;
+}
+section .details div{
+	font-family:  微软雅黑,Microsoft YaHei;
+    font-size:  1.2rem;
+    margin: 30px 40px;
+}
+section .details{
+	display: none;
+}
+section .details .small{
+	display: none;
+	font-size:  0.9rem;
+}
+@media screen and (max-width: 1310px){
+    section{
+		max-width:1060px;
+	}
+}
+@media screen and (max-width: 1100px){
+	section{
+	   max-width:860px ;
+	}
+}
+@media screen and (max-width: 928px){
+	section{
+		width:96%;
+	}
+	section table td{
+		display: none;
+	}
+	section table .details td{
+		display: table-cell;
+	}
+	section .details .small{
+	     display: block;
+    }
+	section table .line1>th{
+        width:90%;
+    }
+}
+
+
+
+
+
+

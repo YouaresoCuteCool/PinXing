@@ -6,18 +6,22 @@
 	box-sizing: border-box;
 }
 html{
-	font-size:90%;
+	font-size:100%;
 }
 a{
 	text-decoration: none;
 	color: #333;
 }
+/*头部*/
 .nav-header{
 	width: 100%;
 	height: 90px;
 	background-color: #fff;
 	border-bottom: 1px solid #CDCDCD;
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:999;
 }
 .fr_login{
 	position: absolute;
@@ -27,22 +31,27 @@ a{
 }
 .nav-header .white-logo{
 	height: 45px;
-	float: right;
-	margin-right: 30%;
 	padding-top: 10px;
+	text-align: center;
 	display: none;
 }
 .nav-header .white-logo img{
-	width: 100%;
+	width: 200px;
 }
 .nav-header .navbar{
 	width: 50px;
 	padding:10px;
-	float: left;
+	position: fixed;
 	display: none;
 }
-.nav-header .navbar img{
+.nav-header .navbar img.lg{
 	width:100%;
+}
+.nav-header .navbar img.sm{
+	width:100%;
+}
+.nav-header .navbar img.sm{
+	display: none;
 }
 .nav-header .logo{
 	max-width: 202px;
@@ -69,15 +78,16 @@ a{
 	margin-left: 20px;
 	width: 84px;
 }
-.nav-header ul li a{
+.nav-header ul li>a{
 	color: #9d9d9d;
 	padding: 10px 8px;
 	line-height: 34px;
     height: 34px;
 }
-.nav-header ul li a:hover{
+.nav-header ul li>a:hover{
 	color: #fff;
 	background-color: #544fa2;
+	text-decoration: none;
 }
 .nav-header .submits{
     height: 90px;
@@ -104,6 +114,51 @@ a{
 	color: #a3a3a3;
 	font-size: 0.8rem;
 }
+#bar{
+    position: fixed;
+    bottom: 0;
+    z-index: -10;
+    top: 20px;
+    left:-100%;
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    white-space: nowrap;
+    box-shadow: none;
+    border-top: 0 solid #fff;
+    display: block;
+    overflow-y: auto;
+    background-color: #222;
+    overflow-x: hidden;
+}
+#bar a:hover{
+	color: white;
+	text-decoration: none;
+}
+.main-bar{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -10;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	display: none;
+}
+.navbars{
+	margin-top: 40px;
+	list-style: none;
+}
+.navbars>li>a{
+	color: #9d9d9d;
+	font-size: 1rem;
+}
+.navbars>li{
+	line-height: 40px;
+	height: 40px;
+	padding-left: 10px;
+}
+/*尾部*/
 .footer {
 	width: 100%;
 	min-width: 428px;
@@ -144,7 +199,11 @@ a{
     padding-left: 23px;
 }
 .footer li a{
-	color: #ddd !important;
+	color: #ddd;
+}
+.footer li>a:hover{
+	color: #337ab7;
+	text-decoration: none;
 }
 .footM{
 	float: right;
@@ -196,6 +255,63 @@ a{
     margin: 0px 5px;
     padding: 30px 0px 38px;
 }
+/*导航栏显示div*/
+.mnavMenu {
+    width: 1046px;
+    background: rgba(240,240,240,0.8);
+    padding: 38px 0px 50px;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    display: none;
+}
+.mnav_mdl {
+    float: left;
+    padding: 0px 6px 0px 45px;
+    height: 198px;
+    width: 342px;
+}
+.mnav_mdl dt {
+    line-height: 48px;
+    height: 49px;
+    border-bottom: 1px solid #C6C6C6;
+    font-size: 22px;
+    color: #111111;
+    text-align: left;
+    font-weight: normal;
+}
+.mnav_mdl dd {
+    padding-top: 10px;
+    text-align: left;
+}
+.mnav_mdl dd a{
+	cursor: pointer;
+	text-decoration: none;
+}
+.mnav_mdl dt img {
+    float: left;
+    margin: 4px 5px 0px 0px;
+    vertical-align: middle;
+}
+.mnav_da {
+    color: #666;
+    font-size: 14px;
+    line-height: 28px;
+    white-space: nowrap;
+    margin-right: 15px;
+    float: left;
+}
+.login_modal{
+	display: none;
+}
+.login_modal img{
+	width: 15px;
+	vertical-align: middle;
+}
+.login_modal a:hover{
+	text-decoration: none;
+	color: white;
+}
 @media screen and (max-width:768px){
 	.footM{
 		margin-right: 25%;
@@ -211,7 +327,21 @@ a{
 		display: inline-block;
 	}
 }
-@media screen and (max-width:920px) {
+@media screen and (max-width: 991px) {
+	.mnav_mdl {
+	    height: 240px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.mnavMenu {
+	    width: 100%;
+	}
+	.mnav_mdl {
+   	 	width: 33.333%;
+    	padding: 0 20px;
+	}
+}
+@media screen and (max-width:952px) {
 	.nav-header ul li{
 		margin-left: 10px;
 	}
@@ -225,5 +355,26 @@ a{
 	}
 	.nav-header .navbar,.nav-header .white-logo,.fr_login{
 		display: block;
+	}
+	.nav-header{
+		border-bottom: none;
+	}
+	.main-bar{
+		display: block;
+	}
+	.login_modal{
+	    width: 180px;
+	    height: 60px;
+	    position: absolute;
+	    top: 50px;
+	    right: 0px;
+	    background: rgba(0,0,0,0.6);
+	    text-align: center;
+	    line-height: 60px;
+	    color: #fff;
+	    display: none;
+	}
+	.login_modal a{
+		color: #fff;
 	}
 }

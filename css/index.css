@@ -1,0 +1,588 @@
+.navbars{
+	margin-top: 40px;
+	list-style: none;
+}
+.navbars>li>a{
+	color: #9d9d9d;
+	font-size: 1.5rem;
+}
+.navbars>li{
+	line-height: 40px;
+	height: 40px;
+	padding-left: 10px;
+}
+#bar{
+    position: fixed;
+    bottom: 0;
+    top: 20px;
+    left:-100%;
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    white-space: nowrap;
+    box-shadow: none;
+    border-top: 0 solid #fff;
+    display: block;
+    overflow-y: auto;
+    background-color: #222;
+    overflow-x: hidden;
+}
+#bar a:hover{
+	color: white;
+	text-decoration: none;
+}
+.main-bar{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	display: none;
+}
+.carousel-caption input{
+	-webkit-tap-highlight-color:transparent;
+	outline:none;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item > img.sm{
+	display: block;
+}
+#carousel-example-generic{
+	width: 100%;
+	margin-top: 100px;
+}
+.carousel-control.left,.carousel-control.right {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-caption{
+	padding: 10px 10px 0px;
+    height: 60px;
+    width: 560px;
+    position: relative;
+    z-index: 2;
+    background: rgba(0,0,0,0.3);
+    margin: -120px 140px 0px;
+}
+.carousel-caption .search-input{
+	line-height: 40px;
+    background: #FFF;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px 120px 0px 20px;
+    width: 100%;
+    border-width: 0px;
+    border-style: none;
+    color: gray;
+}
+.carousel-caption .btn-search{
+	line-height: 40px;
+    color: #FFF;
+    background: #6766B2;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.carousel-caption a:hover{
+	text-decoration: none;
+}
+/*sec-life*/
+.sec-life{
+	width: 100%;
+	margin-top: 80px;
+}
+.sec-life .sec-life-tit{
+	width: 100%;
+}
+.sec-life .sec-life-tit p{
+	display: none;
+	font-size:24px;
+}
+.sec-life .sec-life-tit img{
+	margin: 0 auto;
+	display: block;
+}
+.sec-life .sec-pic{
+	margin: 50px auto;
+	overflow: hidden;
+}
+.jq22-container .container #full ul{
+	list-style: none;
+}
+.jq22-container .container .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.jq22-container .container .carousel-control.left {
+	position: absolute;
+    left: -50px;
+    top: 30%;
+}
+.jq22-container .container .carousel-control.right {
+	position: absolute;
+    right: 0px;
+    top:30%;
+}
+.col-xs-4 h5 {
+    position: absolute;
+    bottom: 0;
+    width: 83%;
+    margin: 0;
+    font-size: 24px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+}
+.jq22-container .container .carousel-control img{
+	width: 40px;
+	margin-top: 100%;
+}
+.col-xs-4{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.img-responsive.ban{
+	display: none;
+}
+/*vacation*/
+.sec-vacation{
+    max-width: 992px;
+    width: 100%;
+    margin: auto;
+}
+.sec-vacation .sec-vacation-tit{
+	width: 100%;
+}
+.sec-vacation .sec-vacation-tit p{
+	display: none;
+	font-size:24px;
+}
+.sec-vacation .sec-vacation-tit img{
+	clear: both;
+	margin: 0px auto 30px;
+	display: block;
+}
+.sec-vacation .floor .vacapic{
+    margin-bottom: 2%;
+}
+.floor .vacapic{
+    width: 32%;
+    height: 351px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-right: 2%;
+    position: relative;
+}
+.sec-vacation .floor .width-2 {
+    width: 66%;
+}
+.floor .vacapic>div:first-child {
+    width: 100%;
+    height: 100%;
+}
+.floor .vacapic>div>div.tour-sample {
+    padding: 10px 15px;
+}
+.floor .vacapic>div:first-child div{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    background-color: rgba(51,52,52,0.5);
+}
+.floor .vacapic h4 {
+    font-size: 17px;
+    margin: 0;
+}
+.inline-block {
+    display: inline-block;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.floor a:last-child .vacapic{
+    margin-right: 0;
+}
+.sec-vacation a:hover{
+	text-decoration: none;
+	color:  #8281ba;
+}
+.sec-vacation .more-look:hover {
+    background-color: #8281ba;
+    border-color: #8281ba;
+    color: #fff;
+}
+.sec-vacation .more-look a{
+	color:  #8281ba;
+}
+.sec-vacation .more-look {
+	width: 274px;
+	clear: both;
+    margin:20px auto;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 100px;
+    border:1px solid #8281ba;
+    border-radius: 3px;
+    text-align: center;
+}
+.sec-vacation .tellus{
+	margin-top: 80px;
+}
+.sec-vacation .tellus-fl{
+	width: 65%;
+	float: left;
+}
+.sec-vacation .tellus-fl img{
+	width: 100%;
+}
+.sec-vacation .tellus-fr {
+    border-top: 5px solid #8281ba;
+    width: 34%;
+    background-color: white;
+    padding: 10px 34px;
+    color: #666;
+    float: right;
+}
+.sec-vacation .tellus-fr h4 {
+    font-size: 18px;
+}
+.sec-vacation .tellus-fr h3 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.sec-vacation .tellus-fr p {
+    color: #aaa;
+}
+.chummy-btn{
+    background-color: #8281ba;
+    border-color: #8281ba;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #fff;
+    text-align:center;
+}
+.sec-vacation .tellus-fr .bttn{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0;
+    width: 100%;
+}
+.sec-vacation .tellus-fr .bttn>div{
+	background-color: rgba(255,255,255,0);
+}
+.sec-vacation .tellus-fr .btnlg{
+	display: none;
+}
+.sec-vacation .tellus-fr .bttn>div:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+/*sec-sprot*/
+.sec-sport .sec-sport-tit{
+	width: 100%;
+	padding-top: 50px;
+	clear: both;
+}
+.sec-sport .sec-sport-tit p{
+	display: none;
+	font-size:24px;
+}
+.sec-sport .sec-sport-tit img{
+	clear: both;
+	margin: 0px auto 30px;
+	display: block;
+}
+.sec-sport .home-cards {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 400px;
+}
+.sec-sport .tall a:first-child .home-card {
+    margin-left: 0.8%;
+}
+.sec-sport .tall .home-card {
+    width: 24%;
+    height: 520px;
+    margin-right: 0.8%;
+    float: left;
+    position: relative;
+}
+.sec-sport .home-card>div:first-child {
+    width: 100%;
+    height: 100%;
+}
+.sec-sport .home-card>div:first-child div {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    background-color: rgba(51,52,52,0.5);
+}
+.sec-sport .home-card>div>div {
+    padding: 15px;
+}
+.sec-sport .home-card>div {
+    background-color: rgba(0,0,0,0);
+}
+.sec-sport .home-card>div>div h3 {
+    font-size: 18px;
+    color: white;
+}
+.sec-sport .home-card h3 {
+    margin: 0;
+}
+.sec-sport .home-card>div:hover{
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
+}
+@media screen and (max-width: 1200px){
+	.sec-life .sec-pic{
+		width: 100%;
+		margin: 30px auto;
+	}
+	.container {
+	    width: 100%; 
+	}
+	.col-xs-4 h5 {
+	    width: 323px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.sec-life .sec-pic{
+		width: 100%;
+		margin: 30px auto;
+	}
+	.container {
+	    width: 100%; 
+	    position: relative;
+	}
+	.jq22-container .container .carousel-control.left{
+	    position: absolute;
+	    left: 80px;
+	}
+	.jq22-container .container .carousel-control.right{
+	    position: absolute;
+	    right:30px;
+	    top:30%;
+	}
+	.jq22-container .container .carousel-control.left {
+		position: absolute;
+	    left: 0px;
+	    top: 30%;
+	}
+	.jq22-container .container .carousel-control.right {
+		position: absolute;
+	    right: 0px;
+	    top:30%;
+	}
+	.col-xs-4 h5 {
+	    width: 95%;
+	}
+}
+@media screen and (max-width: 952px){
+	.sec-life .sec-pic{
+		width: 100%;
+		margin: 30px auto;
+	}
+	.container {
+	    width: 100%; 
+	}
+	#carousel-example-generic{
+		width: 100%;
+		margin-top: 50px;
+	}
+	.nav-header{
+		border-bottom: none;
+	}
+	.carousel-caption{
+	    width: 80%;
+	    margin: -120px -50px 0px;
+	}
+	.carousel-caption .btn-search{
+		width: 80px;
+	}
+	.item .md{
+		display: inline-block;
+	}
+	.sec-life .sec-life-tit img{
+		display: none;
+	}
+	.sec-life .sec-life-tit p{
+		display: block;
+		margin-top: -30px;
+		text-align: center;
+	}
+	.jq22-container .container .carousel-control.left {
+		position: absolute;
+	    left: 0px;
+	    top: 30%;
+	}
+	.jq22-container .container .carousel-control.right {
+		position: absolute;
+	    right: 0px;
+	    top:30%;
+	}
+	.sec-vacation{
+	    width: 100%;
+	}
+	.sec-vacation .sec-vacation-tit img{
+		display: none;
+	}
+	.sec-vacation .sec-vacation-tit p{
+		display: block;
+		font-size:24px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.sec-sport .sec-sport-tit img{
+		display: none;
+	}
+	.sec-sport .sec-sport-tit p{
+		display: block;
+		font-size:24px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.main-bar{
+		display: block;
+	}
+}
+@media (max-width: 768px){
+	.sec-life .sec-pic{
+		width: 95%;
+		margin: 30px auto;
+	}
+	.container {
+	    width: 100%;
+	}
+	.jq22-container .container .carousel-control.right {
+	    padding-right: 0;
+	}
+	.jq22-container .container .carousel-control.left {
+	    padding-left: 0;
+	}
+	.jq22-container .container .carousel-control.left {
+		position: absolute;
+	    left: 0px;
+	    top: 30%;
+	}
+	.jq22-container .container .carousel-control.right {
+		position: absolute;
+	    right: 0px;
+	    top:30%;
+	}
+	.col-xs-4 h5{
+	    font-size: 16px;
+	    font-weight: bold;
+	    line-height: 40px;
+	}
+	.col-xs-4{
+		width: 50%;
+	}
+	.img-responsive.quan{
+		display: none;
+	}
+	.img-responsive.ban{
+		display: block;
+	}
+	.floor .clear-fix{
+		display: none;
+	}
+	.floor .vacapic{
+		width: 100%;
+	}
+	.sec-vacation .tellus-fr .btnsm{
+		display: none;
+	}
+	.sec-vacation .tellus-fr .btnlg{
+		display: block;
+	}
+	.sec-vacation .tellus-fl{
+		width: 100%;
+		float: none;
+	}
+	.sec-vacation .tellus-fr{
+		width: 100%;
+		float: none;
+		background-color: rgba(255,255,255,.9);
+		border-top: none;
+		position: relative;
+		z-index:1;
+		margin-top: -150px;
+	}
+	.sec-sport .tall .home-card {
+	    width: 100%;
+	    height: 280px;
+	    background-size: cover;
+	}
+	.sec-sport .tall a .home-card {
+	    margin: 0;
+	    margin-bottom: 2%;
+	}
+	.navbar-nav > li > a {
+	    line-height: 40px;
+	    height: 40px;
+	    font-size: 15px;
+	}
+	.navbars{
+	    margin: 50px 0 0 0;
+	    padding: 0;
+	}
+}
+@media screen and (max-width: 612px){
+	.carousel-caption{
+	    width: 95%;
+	    margin: -120px -60px 0px;
+	}
+	.carousel-inner > .item > img.sm{
+		display: none;
+	}
+	.carousel-inner > .item > img.md{
+		display: block;
+	}
+	.row .col-xs-4:eq(0){
+	    width: 50%;
+	}
+	.row .col-xs-4:eq(1){
+	    width: 50%;
+	    height: 50%;
+	}
+	.row .col-xs-4:eq(2){
+	    width: 50%;
+	    height: 50%;
+	}
+	.jq22-container .container .carousel-control.left {
+		position: absolute;
+	    left: 0px;
+	    top: 30%;
+	}
+	.jq22-container .container .carousel-control.right {
+		position: absolute;
+	    right: 0px;
+	    top:30%;
+	}
+}

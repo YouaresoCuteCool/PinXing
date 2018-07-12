@@ -1,0 +1,682 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+html{
+	font-size:90%;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+.huanye .left div a:hover{
+	text-decoration:underline;
+	color:#51508a;
+}
+@media screen and (min-width:1200px){
+.container{
+	width:100%;
+	margin-top:110px;
+}
+.container .bgPic{
+	width:100%;
+	position:relative;
+}
+.container .bgPic img{
+	width:100%;
+	display:block;
+}
+.container .bgPic .bg_sec{
+	display:none;
+}
+.container .bgPic .bg_thi{
+	display:none;
+}
+.container .bgPic  .nav{
+	width:100%;
+	height:60px;
+	background-color:rgba(0,0,0,.5);
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.container .nav ul{
+	width:500px;
+	height:60px;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+}
+.container .nav ul li{
+     float:left;
+     width:114px;
+     height:60px;
+     line-height:60px;
+     text-align:center;
+     margin-right:5px;
+     color:white;
+     list-style-type:none;
+     font-size:1.1rem;
+ }
+.container .nav ul li:hover{
+    background:#6968A1;
+}
+.active{
+	background:#6968A1;
+}
+.container .content{
+	width:95%;
+	max-width:1200px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.content>p{
+	height:28px;
+	font-size:1.6rem;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align:center;
+}
+.content .other{
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.content .other .user,.calendar{
+	width:16px;
+	height:16px;
+}
+.calendar{
+	margin-left:10px;
+}
+.content .other span{
+	color:gray;
+	font-size:0.9rem;
+    margin-left:6px;  
+}
+.container .article{
+	width:100%;
+	font-size:1.1rem;
+	color:#666;
+	border-top:1px solid #8a8a8a;
+	border-bottom:1px solid #8a8a8a;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.container .article img{
+	display:block;
+	margin:auto;
+}
+.container .article p{
+	font-weight:bold;
+	font-size:1.2rem;
+}
+.container .share{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin-top:100px;
+}
+.container .share img{
+	width:25px;
+	height:25px;
+	vertical-align:middle;
+}
+.container .huanye{
+	height:100px;
+	margin-top:20px;
+}
+.container .huanye>div{
+  float:left;
+}
+.container .huanye .left{
+	width:60%;
+}
+.container .huanye .left div{
+	margin-bottom:20px;
+}
+.container .huanye .right{
+	width:35%;
+}
+.container .huanye .right a{
+	display:block;
+	height:32px;
+	line-height:32px;
+	border:1px solid #8a8a8a;
+	float:right;
+	color:gray;
+	font-size:1rem;
+	border-radius:5px;
+	margin-left:10px;
+}
+.container .huanye .right .liebiao{
+	padding-left:50px;
+	background:url("../images/liebiao.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+}
+.container .huanye .right .next{
+	padding-right:40px;
+	background:url("../images/arrow-right.png") no-repeat;
+    background-size:25px;
+    background-position:right 10px center;
+    padding-left:10px;
+}
+.container .huanye .right .prev{
+	padding-left:40px;
+	background:url("../images/arrow-left.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+    padding-right:10px;
+}
+}
+@media screen and (min-width:952px) and (max-width:1200px){
+.container{
+	width:100%;
+	margin-top:110px;
+}
+.container .bgPic{
+	width:100%;
+	position:relative;
+}
+.container .bgPic img{
+	width:100%;
+	display:block;
+}
+.container .bgPic .bg_fir{
+	display:none;
+}
+.container .bgPic .bg_sec{
+	display:block;
+}
+.container .bgPic .bg_thi{
+	display:none;
+}
+.container .bgPic  .nav{
+	width:100%;
+	height:60px;
+	background-color:rgba(0,0,0,.5);
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.container .nav ul{
+	width:500px;
+	height:60px;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+}
+.container .nav ul li{
+     float:left;
+     width:114px;
+     height:60px;
+     line-height:60px;
+     text-align:center;
+     margin-right:5px;
+     color:white;
+     list-style-type:none;
+     font-size:1.1rem;
+ }
+.container .nav ul li:hover{
+    background:#6968A1;
+}
+.active{
+	background:#6968A1;
+}
+.container .content{
+	width:95%;
+	max-width:952px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.content>p{
+	height:28px;
+	font-size:1.6rem;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align:center;
+}
+.content .other{
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.content .other .user,.calendar{
+	width:16px;
+	height:16px;
+}
+.calendar{
+	margin-left:10px;
+}
+.content .other span{
+	color:gray;
+	font-size:0.9rem;
+    margin-left:6px;  
+}
+.container .article{
+	width:100%;
+	font-size:1.1rem;
+	color:#666;
+	border-top:1px solid #8a8a8a;
+	border-bottom:1px solid #8a8a8a;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.container .article img{
+	display:block;
+	margin:auto;
+}
+.container .article p{
+	font-weight:bold;
+	font-size:1.2rem;
+}
+.container .share{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin-top:100px;
+}
+.container .share img{
+	width:25px;
+	height:25px;
+	vertical-align:middle;
+}
+.container .huanye{
+	height:100px;
+	margin-top:20px;
+}
+.container .huanye>div{
+  float:left;
+}
+.container .huanye .left{
+	width:60%;
+}
+.container .huanye .left div{
+	margin-bottom:20px;
+}
+.container .huanye .right{
+	width:35%;
+}
+.container .huanye .right a{
+	display:block;
+	height:32px;
+	line-height:32px;
+	border:1px solid #8a8a8a;
+	float:right;
+	color:gray;
+	font-size:1rem;
+	border-radius:5px;
+	margin-left:10px;
+}
+.container .huanye .right .liebiao{
+	padding-left:50px;
+	background:url("../images/liebiao.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+}
+.container .huanye .right .next{
+	padding-right:40px;
+	background:url("../images/arrow-right.png") no-repeat;
+    background-size:25px;
+    background-position:right 10px center;
+    padding-left:10px;
+}
+.container .huanye .right .prev{
+	padding-left:40px;
+	background:url("../images/arrow-left.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+    padding-right:10px;
+}
+}
+@media screen and (min-width:952px) and (max-width:1044px){
+  .container{
+	width:100%;
+	margin-top:110px;
+}
+.container .bgPic{
+	width:100%;
+	position:relative;
+}
+.container .bgPic img{
+	width:100%;
+	display:block;
+}
+.container .bgPic .bg_fir{
+	display:none;
+}
+.container .bgPic .bg_sec{
+	display:block;
+}
+.container .bgPic .bg_thi{
+	display:none;
+}
+.container .bgPic  .nav{
+	width:100%;
+	height:60px;
+	background-color:rgba(0,0,0,.5);
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.container .nav ul{
+	width:500px;
+	height:60px;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+}
+.container .nav ul li{
+     float:left;
+     width:114px;
+     height:60px;
+     line-height:60px;
+     text-align:center;
+     margin-right:5px;
+     color:white;
+     list-style-type:none;
+     font-size:1.1rem;
+ }
+.container .nav ul li:hover{
+    background:#6968A1;
+}
+.active{
+	background:#6968A1;
+}
+.container .content{
+	width:95%;
+	max-width:700px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.content>p{
+	height:28px;
+	font-size:1.6rem;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align:center;
+}
+.content .other{
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.content .other .user,.calendar{
+	width:16px;
+	height:16px;
+}
+.calendar{
+	margin-left:10px;
+}
+.content .other span{
+	color:gray;
+	font-size:0.9rem;
+    margin-left:6px;  
+}
+.container .article{
+	width:100%;
+	font-size:1.1rem;
+	color:#666;
+	border-top:1px solid #8a8a8a;
+	border-bottom:1px solid #8a8a8a;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.container .article img{
+	display:block;
+	margin:auto;
+}
+.container .article p{
+	font-weight:bold;
+	font-size:1.2rem;
+}
+.container .share{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin-top:100px;
+}
+.container .share img{
+	width:25px;
+	height:25px;
+	vertical-align:middle;
+}
+.container .huanye{
+	height:300px;
+	margin-top:20px;
+	position:relative;
+}
+.container .huanye .left{
+	width:100%;
+	margin-top:100px;
+	position:absolute;
+	top:-40px;
+	left:0;
+}
+.container .huanye .left div{
+	margin-bottom:20px;
+}
+.container .huanye .right{
+	width:350px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.container .huanye .right a{
+	display:block;
+	height:32px;
+	line-height:32px;
+	border:1px solid #8a8a8a;
+	float:right;
+	color:gray;
+	font-size:1rem;
+	border-radius:5px;
+	margin-left:10px;
+}
+.container .huanye .right .liebiao{
+	padding-left:50px;
+	background:url("../images/liebiao.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+}
+.container .huanye .right .next{
+	padding-right:40px;
+	background:url("../images/arrow-right.png") no-repeat;
+    background-size:25px;
+    background-position:right 10px center;
+    padding-left:10px;
+}
+.container .huanye .right .prev{
+	padding-left:40px;
+	background:url("../images/arrow-left.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+    padding-right:10px;
+}
+}
+@media screen and (max-width:952px){
+.container{
+	width:100%;
+	margin:auto;
+	margin-top:110px;
+}
+.container .bgPic{
+	width:100%;
+	position:relative;
+}
+.container .bgPic img{
+	width:100%;
+	display:block;
+}
+.container .bgPic .bg_fir{
+	display:none;
+}
+.container .bgPic .bg_sec{
+	display:none;
+}
+.container .bgPic .bg_thi{
+	display:block;
+	margin-top:-40px;
+}
+.container .bgPic  .nav{
+	width:100%;
+	height:40px;
+	position:absolute;
+	bottom:-70px;
+	left:0px;
+}
+.container .nav ul{
+	width:90%;
+	max-width:550px;
+	height:40px;
+	margin:auto;
+	display:flex;
+	justify-content:space-around;
+}
+.container .nav ul li{
+     float:left;
+     width:90px;
+     height:30px;
+     border-radius:20px;
+     line-height:30px;
+     text-align:center;
+     margin-left:5px;
+     color:black;
+     list-style-type:none;
+     font-size:1.1rem;
+ }
+ .container .nav ul .active{
+ 	color:white;
+ }
+.container .nav ul li:hover{
+    background:#6968A1;
+    color:white;
+}
+.active{
+	background:#6968A1;
+}
+.container .content{
+	width:95%;
+	max-width:952px;
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:30px;
+}
+.content .article img{
+	width:100%;
+}
+.content>p{
+	font-size:1.6rem;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align:center;
+}
+.content .other{
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.content .other .user,.calendar{
+	width:16px;
+	height:16px;
+}
+.calendar{
+	margin-left:10px;
+}
+.content .other span{
+	color:gray;
+	font-size:0.9rem;
+    margin-left:6px;  
+}
+.container .article{
+	width:100%;
+	font-size:1.1rem;
+	color:#666;
+	border-top:1px solid #8a8a8a;
+	border-bottom:1px solid #8a8a8a;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.container .article img{
+	display:block;
+	margin:auto;
+}
+.container .article p{
+	font-weight:bold;
+	font-size:1.2rem;
+}
+.container .share{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin-top:100px;
+}
+.container .share img{
+	width:25px;
+	height:25px;
+	vertical-align:middle;
+}
+.container .huanye{
+	height:300px;
+	margin-top:20px;
+	position:relative;
+}
+.container .huanye .left{
+	width:100%;
+	margin-top:100px;
+	position:absolute;
+	top:-40px;
+	left:0;
+}
+.container .huanye .left div{
+	margin-bottom:20px;
+}
+.container .huanye .right{
+	width:350px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.container .huanye .right a{
+	display:block;
+	height:32px;
+	line-height:32px;
+	border:1px solid #8a8a8a;
+	float:right;
+	color:gray;
+	font-size:1rem;
+	border-radius:5px;
+	margin-left:10px;
+}
+.container .huanye .right .liebiao{
+	padding-left:50px;
+	background:url("../images/liebiao.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+}
+.container .huanye .right .next{
+	padding-right:40px;
+	background:url("../images/arrow-right.png") no-repeat;
+    background-size:25px;
+    background-position:right 10px center;
+    padding-left:10px;
+}
+.container .huanye .right .prev{
+	padding-left:40px;
+	background:url("../images/arrow-left.png") no-repeat;
+    background-size:25px;
+    background-position:left 10px center;
+    padding-right:10px;
+}
+}

@@ -1,0 +1,215 @@
+.sec-head{
+	width: 100%;
+	height: 530px;
+	position: relative;
+	background-image: url(../images/jdyd3_02.jpg);
+	background-position: center;
+}
+.sec-head .sec-head-tit{
+	width: 100%;
+	height: 60px;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 0;
+    color: white;
+    padding: 15px;
+}
+.sec-main{
+	width: 1200px;
+	margin: 64px auto;
+}
+.sec-pic {
+    padding-left: 12px;
+    width: 611px;
+    float: left;
+}
+.sec-pic img{
+    width: 599px;
+    height: 363px;
+}
+.sec-des {
+    float: left;
+    width: 589px;
+    padding-left: 45px;
+}
+.xin_jd2pp1 {
+    display: block;
+    font-size: 30px;
+    color: #101010;
+    margin-bottom: 15px;
+}
+.width100 {
+    width: 100% !important;
+}
+.clear {
+    clear: both;
+}
+.xin_jd2pp2 {
+    width: 50%;
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    line-height: 32px;
+}
+.xin_jd2pp3 {
+    color: #787878;
+}
+.xin_jd2pp4 {
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.room{
+	width: 100%;
+	padding-top: 50px;
+	clear: both;
+}
+.room table{
+	width: 100%;
+	border:1px solid #CDCDCD;
+	background-color: #f7f7f7;
+	position: relative;
+	text-align: center;
+}
+.room table>thead>tr{
+	font-size: 16px;
+    color: #101010;
+    line-height: 52px;
+}
+.room table tbody tr{
+	height: 41px;
+    line-height: 41px;
+    font-size: 14px;
+    color: #787878;
+}
+.room td a{
+    padding: 0 10px;
+    overflow: hidden;
+    height: 26px;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    background: #6968a1;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+.room td a:hover{
+	color: #da2036;
+}
+.map{
+	width: 100%;
+	background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    margin-top: 50px;
+    height: 370px;
+    clear: both;
+}
+.map-pic{
+	float: left;
+    width: 674px;
+    height: 370px;
+}
+.map-pic img{
+    width: 674px;
+    height: 370px;
+}
+.map-des span{
+	display: block;
+	font-size: 20px;
+    font-family: 微软雅黑,Microsoft YaHei;
+}
+.room-sm{
+    display: none;
+    padding-top: 35px;
+    clear: both;
+}
+.room-sm table{
+    width: 100%;
+    border:1px solid #CDCDCD;
+    background-color: #f7f7f7;
+    position: relative;
+    z-index: -1;
+    text-align: left;
+    color: #787878;
+    margin-top: 10px;
+}
+.room-sm tr{
+    height: 41px;
+    line-height: 41px;
+}
+.room-sm td a{
+    padding: 0 10px;
+    overflow: hidden;
+    height: 26px;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    background: #6968a1;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.room-sm td a:hover{
+    color: #da2036;
+}
+@media screen and (max-width: 1200px) {
+    .sec-main{
+        width: 96%;
+        margin: 64px auto;
+    }
+    .sec-pic {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .sec-pic img{
+        width: 100%;
+        max-width: 599px;
+    }
+    .sec-des {
+        float: left;
+        width: 100%;
+        padding-left: 0;
+    }
+    .map{
+        height: 430px;
+    }
+    .map-pic{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .map-pic img{
+        width: 100%;
+        max-width: 674px;
+    }
+    .map-des span{
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 650px){
+    .xin_jd2pp2 {
+        width: 100%;
+    }
+    .room-sm{
+        display:block;
+    }
+    .room{
+        display: none;
+    }
+    .map{
+        background: transparent;
+        border:none;
+    }

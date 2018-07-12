@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+html{
+	font-size:100%;
+
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+.bigimg a:hover{
+	text-decoration: none;
+	background-color: #6968A1;
+}
+.bigimg{
+	width:100%;
+	position: relative;
+	margin-top: 40px;
+}
+.topimg img{
+	width:100%;
+}
+.forphone {
+		display: none;
+}
+.forpad {
+		display: none;
+}
+@media screen and (max-width: 1100px){
+	.forpad {
+		display: block;
+	}
+	.forphone {
+		display: none;
+	}
+	.forpc {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 928px){
+	.bigimg{
+		margin-top: 10px;
+	}
+	.forphone{
+		width:100%;
+		display: block;
+	}
+	.forpad{
+		display: none;
+	}
+	.forpc{
+		display: none;
+	}
+}
+.bigimg .introtitle{
+    position:absolute;
+    bottom:0;
+    background-color:rgba(0,0,0,0.4); 
+    width:100%;
+    text-align: center;
+    
+}
+.bigimg a{
+	padding:1% 3%;
+	display: inline-block;	
+	font-weight: bold;
+	color: white;
+	font-size: 1.2rem;
+}
+.bigimg .aactive{
+	background: #6968A1;
+}
+section{
+	margin-top: 80px;
+	width:90%;
+	margin:auto;
+}
+.m2sg img{
+	width: 100%;
+	margin:0 auto;
+	display: block;
+	margin-bottom: 100px;
+}
+.editor {
+	font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 30px;
+    display: block;
+}
+.ceosign{
+	width:90%;
+	margin:auto;	
+}
+.ceosign img{
+	width: 100%;
+}
+.developimg{
+	width: 90%;
+	margin:auto;
+}
+.developimg img{
+	width:100%;
+	margin: auto;
+}
+.honorimg{
+    width:100%;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+.honorimg div{
+	display: inline-block;
+    margin:10px auto;
+	border:1px solid #e8e8e8;
+	text-align: center;
+}
+.honorimg div img{
+	width:100%
+}
+@media screen and (max-width: 928px){
+    .bigimg .introtitle{
+    	position:static;
+    	background-color:white;
+        margin:50px auto;
+    }
+    .bigimg .introtitle a{
+    	margin-left: 2px;
+    	padding:0.8% 1%;
+    	font-size: 0.9rem;
+    	border-radius: 15px;
+    	color: #333; 
+    	font-weight: normal;
+    }
+    .bigimg .introtitle .aactive{
+    	color: white;
+	    background: #6968A1;	    
+    }
+    .bigimg .introtitle a:hover{
+    	color: white;
+    	background-color: #6968A1;
+    }
+}
+
+
+
+
+
+
+
+

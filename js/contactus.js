@@ -1,0 +1,45 @@
+$('.shenzhenbranch').click(function(){
+	$(this).addClass('cactive');
+	$('.shenzhen').addClass('animated fadeInRight');
+	$('.beijingbranch').removeClass('cactive');
+	$('.shanghaibranch').removeClass('cactive');
+    $('.beijing').css({
+    	'display':'none'
+    })
+    $('.shanghai').css({
+    	'display':'none'
+    })
+    $('.shenzhen').css({
+    	'display':'flex'   
+    })
+})
+$('.beijingbranch').click(function(){
+	$(this).addClass('cactive');
+	$('.beijing').addClass('animated fadeInRight');
+	$('.shenzhenbranch').removeClass('cactive');
+	$('.shanghaibranch').removeClass('cactive');
+    $('.beijing').css({
+    	'display':'flex'
+    })
+    $('.shanghai').css({
+    	'display':'none'
+    })
+    $('.shenzhen').css({
+    	'display':'none'
+    })
+})
+$('.shanghaibranch').click(function(){
+	$(this).addClass('cactive');
+	$('.shanghai').addClass('animated fadeInRight');
+	$('.beijingbranch').removeClass('cactive');
+	$('.shenzhenbranch').removeClass('cactive');
+    $('.beijing').css({
+    	'display':'none'
+    })
+    $('.shanghai').css({
+    	'display':'flex'
+    })
+    $('.shenzhen').css({
+    	'display':'none'
+    })
+})
